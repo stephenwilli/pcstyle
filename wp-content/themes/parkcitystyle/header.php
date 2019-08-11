@@ -18,14 +18,14 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-65866443-1"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-65866443-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       gtag('config', 'UA-65866443-1');
-    </script>
+    </script> -->
 
 
     <title><?php wp_title(' | ', true, 'right'); ?></title>
@@ -37,6 +37,6 @@
 
 	<?php get_template_part('partials/global/preloader'); ?>
 
-	<?php get_template_part('partials/global/google-analytics'); ?>
+	<?php //get_template_part('partials/global/google-analytics'); ?>
 
 	<?php get_template_part('partials/header/navigation'); ?>
