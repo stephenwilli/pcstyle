@@ -19,19 +19,19 @@
 		height: 100%;
 		z-index: 10;
 		background: -moz-linear-gradient(
-                top,
+                to bottom,
                 rgba(0,0,0,0.001) 0%,
-                rgba(201,201,201,1) 100%
+                rgba(255,255,255,1) 150%
                 );
 		background: -webkit-linear-gradient(
-        top,
+        to bottom,
         rgba(0,0,0,0.001) 0%,
-        rgba(201,201,201,1) 100%
+        rgba(201,201,201,1) 150%
         );
         background: linear-gradient(
-        top,
+        to bottom,
         rgba(0,0,0,0.001) 0%,
-        rgba(201,201,201,1) 100%
+        rgba(255,255,255,1) 150%
         );
 
 	}
