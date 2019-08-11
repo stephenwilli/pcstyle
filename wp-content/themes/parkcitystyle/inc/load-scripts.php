@@ -3,7 +3,7 @@ add_action('wp_enqueue_scripts', function(){
 	wp_enqueue_style(
 		'application',
 		is_production()
-			? _s_revved_asset('css/application.min.css')
+			? _s_revved_asset('css/application.css')
 			: _s_asset('css/application.css'),
 		array(),
 		'' // @TODO pull revved number
