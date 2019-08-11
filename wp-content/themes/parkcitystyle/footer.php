@@ -4,12 +4,14 @@
 				<div class="col-md-4">
 					<div class="footer-widget">
 						<?php
-			                $phone = get_field('phone_number', 'option');
-			                $email = get_field('contact_email', 'option');
-			                $address = get_field('address', 'option');
-			            ?>
+              $phone = get_field('phone_number', 'option');
+              $email = get_field('contact_email', 'option');
+              $address = get_field('address', 'option');
+							$logo = get_field('site_logo_white', 'option');
+							
+							?>
 
-							<img class="logo" src="<?php get_bloginfo('template_url') ?>/wp-content/uploads/2019/02/pcstyle-logo-white.png" />
+							<img class="logo" src="<?php echo $logo['sizes']['medium'];?>" />
 
 
 						<p>

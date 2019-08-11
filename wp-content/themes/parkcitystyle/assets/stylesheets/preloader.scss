@@ -12,6 +12,7 @@
       @include respond-to($screen-xs) { 
       display: none;
     } 
+    
 }
 
   @keyframes flickerAnimation {
