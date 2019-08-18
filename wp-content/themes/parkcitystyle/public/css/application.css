@@ -8441,7 +8441,7 @@ html {
   -webkit-font-smoothing: subpixel-antialiased; }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   background-color: #FFF;
@@ -8477,14 +8477,14 @@ img {
 h1, h2, h3 {
   margin-top: 0;
   color: #FFF;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: bebas-neue, sans-serif;
   font-style: normal;
   margin-bottom: 1.5rem; }
 
 h4, h5, h6 {
   margin-top: 0;
   color: #FFF;
-  font-family: 'Roboto', sans-serif;
+  font-family: roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   margin-bottom: 1.5rem; }
@@ -8605,29 +8605,6 @@ h3.teton-valley {
 h3.catalogue {
   color: #28313f; }
 
-.js div#preloader {
-  position: fixed;
-  display: inline-block;
-  z-index: 9999;
-  width: 100%;
-  height: 100%;
-  overflow: visible;
-  background: #28313f; }
-  @media all and (max-width: 768px) {
-    .js div#preloader {
-      display: none; } }
-
-@keyframes flickerAnimation {
-  0% {
-    opacity: 0; }
-  50% {
-    opacity: 1; }
-  100% {
-    opacity: 0; } }
-
-.loader {
-  animation: flickerAnimation 2s infinite; }
-
 .navbar-default {
   height: 90px;
   background-color: rgba(0, 0, 0, 0.25);
@@ -8673,7 +8650,7 @@ h3.catalogue {
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
   color: #FFF;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: bebas-neue, sans-serif;
   font-style: normal;
   font-size: 1.5rem;
   text-transform: uppercase; }
@@ -8752,7 +8729,7 @@ h3.catalogue {
   .navbar .dropdown-menu li {
     font-size: 1.5rem;
     margin-bottom: 15px;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: bebas-neue, sans-serif;
     font-style: normal;
     text-align: right; }
     @media all and (max-width: 992px) {
@@ -9158,7 +9135,7 @@ footer {
   .project-box .project-name {
     line-height: 1.2;
     font-size: 1.8rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: roboto, sans-serif;
     font-style: normal;
     font-weight: 400; }
     .project-box .project-name::after {
@@ -9445,7 +9422,7 @@ footer {
   background-color: #28313f;
   color: #FFF;
   text-transform: uppercase;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: bebas-neue, sans-serif;
   font-style: normal;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -9819,7 +9796,7 @@ footer {
     margin-right: 50px; }
 
 .post-share span {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: bebas-neue, sans-serif;
   font-style: normal;
   font-size: 1.3rem;
   margin-left: 15px; }

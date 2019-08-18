@@ -14,7 +14,7 @@
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
     <link rel="icon" type="image/png" href="<?php echo(get_template_directory_uri()) ?>/favicon.ico" />
-    <script src="https://use.typekit.net/bjo7pmz.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/fjw3oyi.css">
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
@@ -35,7 +35,7 @@
 
 <body <?php body_class(); ?>  id="page-top">
 
-	<?php get_template_part('partials/global/preloader'); ?>
+	<?php //get_template_part('partials/global/preloader'); ?>
 
 	<?php //get_template_part('partials/global/google-analytics'); ?>
 

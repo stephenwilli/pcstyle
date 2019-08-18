@@ -25,17 +25,16 @@ $catalogue: #28313f;
 
 
 /* FONT FAMILIES */
-@mixin heading-font($weight: 700) {
-  font-family: 'Bebas Neue', sans-serif;
+@mixin heading-font($weight: 400) {
+  font-family: bebas-neue, sans-serif;
   font-style: normal;
 }
 
 @mixin copy-font($weight: 400) {
-  font-family: 'Roboto', sans-serif;
+  font-family: roboto, sans-serif;
   font-style: normal;
   font-weight: $weight;
 }
-
 
 
 /* SCREEN SIZE */
