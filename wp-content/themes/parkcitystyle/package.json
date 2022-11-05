@@ -6,11 +6,11 @@
   "dependencies": {
     "beepbeep": "^1.2.0",
     "del": "1.2.0",
-    "gulp": "3.9.1",
+    "gulp": "4.0.2",
     "gulp-autoprefixer": "3.1.*",
     "gulp-concat": "2.5.2",
     "gulp-consolidate": "^0.1.2",
-    "gulp-expect-file": "0.0.7",
+    "gulp-expect-file": "2.0.0",
     "gulp-iconfont": "^5.0.0",
     "gulp-imagemin": "3.1.1",
     "gulp-livereload": "3.8.0",
